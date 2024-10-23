@@ -4,8 +4,8 @@ public class studentTest {
         student student1 = new student();
         student1.name = "Alice";
         student1.age = 21;
-        student1.studentIDCard = "A12345";
-        student1.isIDCardValid = true;
+        student1.studentID = "A12345";
+        student1.validStudentID = true;
         student1.semester = 3;
         student1.averageGrade = 3.8;
 
@@ -13,8 +13,8 @@ public class studentTest {
         student student2 = new student();
         student2.name = "Bob";
         student2.age = 23;
-        student2.studentIDCard = "B67890";
-        student2.isIDCardValid = false;
+        student2.studentID = "B67890";
+        student2.validStudentID = false;
         student2.semester = 5;
         student2.averageGrade = 3.5;
 

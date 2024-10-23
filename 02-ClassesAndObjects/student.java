@@ -18,7 +18,7 @@ public class student {
         System.out.println("Student's age is: " + age);
     }
     void displayID(){
-        System.out.println("Student ID: " + studentID + "Is it valid? " + validStudentID);
+        System.out.println("Student ID: " + studentID + " Is it valid? " + validStudentID);
     }
     void displayInfo(){
         System.out.println(name + " is on " + semester + "semester and has average grade of: " + averageGrade);
